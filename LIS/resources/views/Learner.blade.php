@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Hi</title>
-  </head>
-  <body>
-Learner
-  </body>
-</html>
+@extends('layouts.app')
+@section('content')
+<h1>learner</h1>
+<p>Hello</p>
+@endsection('content')
