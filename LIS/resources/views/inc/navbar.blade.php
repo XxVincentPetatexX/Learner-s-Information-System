@@ -7,13 +7,13 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Learner's Information System</a>
+            <a class="navbar-brand" href="#">Learning Information System</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="/learner">Learner's Form</a></li>
-              <li><a href="/grading">Grading</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li class=""><a href="/learner">Learner's Form</a></li>
+              <li><a href="#about">Grading</a></li>
+              <li><a href="#contact">Attendance</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                 <ul class="dropdown-menu">

@@ -5,8 +5,8 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
-                <div class="panel-heading">Dashboard</div>
-
+                <div class="panel-heading">Admin Dashboard</div>
+               @include('inc.navbar')
                 <div class="panel-body">
                     @if (session('status'))
                         <div class="alert alert-success">
@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    You are logged in as Admin!
                 </div>
             </div>
         </div>
