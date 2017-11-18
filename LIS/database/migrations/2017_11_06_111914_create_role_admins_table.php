@@ -17,6 +17,7 @@ class CreateRoleAdminsTable extends Migration
             $table->increments('id');
             $table->integer('role_id');
             $table->integer('admin_id');
+          
             $table->timestamps();
         });
     }

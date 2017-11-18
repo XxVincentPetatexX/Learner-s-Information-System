@@ -1,0 +1,42 @@
+.date-picker {
+  margin-bottom: 20px;
+  width: 150px
+}
+
+[type="date"] {
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+    table {
+        border-collapse: collapse;
+        border: 1px solid black;
+        margin-bottom: 1em;
+        width: 790px;
+    }
+    table td, table th {
+        padding: 0;
+        border: 1px solid black;
+    }
+    table td {
+        background: #d3d3d3;
+        word-break: break-all;
+        max-width: 200px;
+        text-align:center;
+    }
+    table th {
+        background: grey;
+        color: whitesmoke;
+        max-width: 200px;
+    }
+    input {
+      width: 90%;
+    }
+.day-column {
+  width: 55px;
+}

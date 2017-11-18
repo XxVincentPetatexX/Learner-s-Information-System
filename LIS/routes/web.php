@@ -18,6 +18,24 @@ Route::get('/', function () {
 Route::get('/learner', function () {
     return view('learner');
 });
+Route::get('/learner2', function () {
+    return view('learner2');
+});
+Route::get('/attendance', function () {
+    return view('attendance');
+});
+Route::get('/attendance2', function () {
+    return view('attendance2');
+});
+Route::get('/dropout', function () {
+    return view('dropout');
+});
+Route::get('/grading', function () {
+    return view('grading');
+});
+Route::get('/dropdown', function () {
+    return view('dropdown');
+});
 
 Auth::routes();
 
